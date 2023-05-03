@@ -4,20 +4,88 @@ This project aims to optimize classical sorting algorithms using OpenMP and MPI.
 
 ## OpenMP
 
-The OpenMP folder contains serial and parallel solutions for three sorting algorithms: **quick sort**, **enumeration sort**, and **merge sort** using OpenMP.
+# Parallel Sorting on OpenMP
 
-### Quick Sort
+This project aims to design and develop serial and parallel solutions for three sorting algorithms: fast sort, enumeration sort, and merge sort using OpenMP. The submission deadline for the project is Friday, September 17, 2021, at 23:59 pm on cssubmit.
 
-The quick sort algorithm is a divide-and-conquer algorithm that partitions the array around a pivot element and recursively sorts the left and right subarrays. The OpenMP implementation parallelizes the partition and sort operations to improve performance.
+## Tasks
 
-### Enumeration Sort
+1. Random generation of an array with double-precision floating-point numbers.
+2. A serial solution for each sorting algorithm that sorts the generated array.
+3. A parallel solution for each sorting algorithm that sorts the array on the CPU using OpenMP.
 
-The enumeration sort algorithm is a simple sorting algorithm that counts the number of elements less than each element and uses these counts to place each element in the correct position. The OpenMP implementation parallelizes the counting operation to improve performance.
 
-### Merge Sort
+## Structure
+[1] QuickSort
 
-The merge sort algorithm is a divide-and-conquer algorithm that recursively divides the array into smaller subarrays and then merges them in sorted order. The OpenMP implementation parallelizes the merge operation to improve performance.
+Principle：The main principle of quick sorting is left and right exchange sorting, first, we
+determine a middle value, the array is divided into left and right two parts, from right to left
+to find smaller than the middle value, from left to right to find larger than the middle value,
+exchange each other's position, and so on, and so on, finally get a sequence that the
+middle value to the left is all smaller than the middle value, the middle value to the right is
+larger than the middle value. At this point, the left and right sides can be seen as two new
+arrays, continue to use the above principle until the end of the loop.
 
+Diagram:
+
+![img.png](OpenMP/screenshot/QuickSort Diagram.png)
+
+[2]EnumerationSort
+
+Principle：Enumeration sorting is to compare the size of all elements with all other
+elements and find out how many elements are smaller than themselves, so as to
+obtain the position (rank) of the elements. The position of each element is unique.
+
+Diagram:
+
+![img.png](OpenMP/screenshot/EnumerationSort Diagram.png)
+
+[3]MergeSort
+
+Principle: The array is split into individual elements, so that relative to itself is
+ordered, two adjacent elements compare size, so that the loop, and finally merged
+into a whole orderly sequence.
+
+Diagram:
+
+![img.png](OpenMP/screenshot/MergeSort Diagram.png)
+
+## Requirement
+(1).Random generation of an array with double-precision
+floating-point numbers:
+
+```cpp
+std::random_device rd;
+std::mt19937 gen(rd());
+std::uniform_real_distribution<double> random(1.0, 100000.0);
+
+for (int i = 0; i < n; i++) {
+    a[i] = random(gen);
+    // std::cout << a[i] << ", ";
+}
+```
+
+
+
+### Experimental Environment
+
+The experimental environment should include details of the CPU, memory, and operating system used in the experiments.
+
+### Compilation
+
+The compilation process should be described in detail, including the compiler version and any compiler flags used.
+
+### Experimental Results
+
+The experimental results should include a wide range of array sizes, and the execution times of both the serial and parallel implementations should be recorded. The results should be presented in a clear and organized manner, such as in a table.
+
+### Analysis
+
+The analysis should include a discussion of the performance of the parallel solutions compared to the serial solutions. The analysis should include a discussion of the scalability of the parallel solutions and any limitations or bottlenecks encountered. Recommendations for future work can also be included.
+
+## Conclusion
+
+In conclusion, this project aims to optimize sorting algorithms using OpenMP. The report should include detailed descriptions of the implementation, experimental results, and analysis of the performance of the serial and parallel solutions.
 ## MPI
 
 The MPI folder contains serial and parallel solutions for the same three sorting algorithms: **quick sort**, **enumeration sort**, and **merge sort** using MPI.
