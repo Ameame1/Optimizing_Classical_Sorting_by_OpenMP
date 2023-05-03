@@ -28,7 +28,7 @@ arrays, continue to use the above principle until the end of the loop.
 
 Diagram:
 
-![QuickSort Diagram](https://drive.google.com/file/d/1jRPfJLLD-sE658Gi-16_RLYG1sBOzdYw/view?usp=share_link)
+![QuickSort Diagram](https://photos.app.goo.gl/nWdTjSKuapqAhsT5A)
 
 [2]EnumerationSort
 
