@@ -28,7 +28,7 @@ arrays, continue to use the above principle until the end of the loop.
 
 Diagram:
 
-![QuickSort Diagram](https://photos.app.goo.gl/nWdTjSKuapqAhsT5A)
+![QuickSort Diagram](OpenMP/screenshot/QuickSort_Diagram.png)
 
 [2]EnumerationSort
 
@@ -38,7 +38,7 @@ obtain the position (rank) of the elements. The position of each element is uniq
 
 Diagram:
 
-![EnumerationSort Diagram](OpenMP/screenshot/EnumerationSort Diagram.png)
+![EnumerationSort Diagram](OpenMP/screenshot/EnumerationSort_Diagram.png)
 
 [3]MergeSort
 
@@ -48,7 +48,7 @@ into a whole orderly sequence.
 
 Diagram:
 
-![MergeSort Diagram](OpenMP/screenshot/MergeSort Diagram.png)
+![MergeSort Diagram](OpenMP/screenshot/MergeSort_Diagram.png)
 
 ## Requirement
 (1).Random generation of an array with double-precision

@@ -32,7 +32,7 @@ obtain the position (rank) of the elements. The position of each element is uniq
 
 Diagram:
 
-![img.png](screenshot/EnumerationSort Diagram.png)
+![img.png](screenshot/EnumerationSort_Diagram.png)
 
 [3]MergeSort
 
@@ -42,7 +42,7 @@ into a whole orderly sequence.
 
 Diagram:
 
-![img.png](screenshot/MergeSort Diagram.png)
+![img.png](screenshot/MergeSort_Diagram.png)
 
 ## Requirement
 (1).Random generation of an array with double-precision
