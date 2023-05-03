@@ -7,5 +7,7 @@
 
 3.A parallel solution for each sorting algorithm to sort the array with OpenMP on CPU;
 
-4.A report to explain all processes.
+4.A report to explain all processes.'
+
+11111
 
