@@ -28,7 +28,7 @@ arrays, continue to use the above principle until the end of the loop.
 
 Diagram:
 
-![QuickSort Diagram](OpenMP/screenshot/QuickSort_Diagram.png)
+![QuickSort Diagram](https://drive.google.com/file/d/1jRPfJLLD-sE658Gi-16_RLYG1sBOzdYw/view?usp=share_link)
 
 [2]EnumerationSort
 
