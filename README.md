@@ -51,7 +51,7 @@ Diagram:
 ![MergeSort Diagram](OpenMP/screenshot/MergeSort_Diagram.png)
 
 ## Requirement
-(1).Random generation of an array with double-precision
+1. Random generation of an array with double-precision
 floating-point numbers:
 
 ```cpp
@@ -64,8 +64,14 @@ for (int i = 0; i < n; i++) {
     // std::cout << a[i] << ", ";
 }
 ```
+All of my code uses the same random function as shown in the
+figure to display double random numbers.
 
+```
+liuyu@Ames-MacBookPro 5507 \% ./a. out
+3.14555 1.575662.67936 4.57623 3.99636 2.41742 8.83001727742 3.27268 7.91091
 
+```
 
 ### Experimental Environment
 
