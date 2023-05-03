@@ -68,10 +68,10 @@ All of my code uses the same random function as shown in the
 figure to display double random numbers.
 
 ```
-liuyu@Ames-MacBookPro 5507 \% ./a. out
-3.14555 1.575662.67936 4.57623 3.99636 2.41742 8.83001727742 3.27268 7.91091
-
+liuyu@Ames-MacBookPro 5507 % ./a.out
+3.14555 1.57566 2.67936 4.57623 3.99636 2.41742 8.83001 727.742 3.27268 7.91091
 ```
+
 
 ### Experimental Environment
 
