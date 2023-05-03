@@ -22,7 +22,7 @@ arrays, continue to use the above principle until the end of the loop.
 
 Diagram:
 
-![img.png](screenshot/QuickSort Diagram.png)
+![img.png](screenshot/QuickSort_Diagram.png)
 
 [2]EnumerationSort
 
