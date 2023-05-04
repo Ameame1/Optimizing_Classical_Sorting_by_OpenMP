@@ -1,5 +1,5 @@
 # Sorting Algorithm Optimization using **OpenMP** and **MPI**
-![img.png](OpenMP/screenshot/UWA.png)
+![https://www.rdi.uwa.edu.au/innovations-in-action](OpenMP/screenshot/UWA.png)
 
 This project aims to optimize classical sorting algorithms using OpenMP and MPI. The project contains two folders, one for OpenMP and the other for MPI.
 
