@@ -15,7 +15,7 @@ This project aims to design and develop serial and parallel solutions for three 
 3. A parallel solution for each sorting algorithm that sorts the array on the CPU using OpenMP.
 
 
-## Structure
+## Introduction
 [1] QuickSort
 
 Principle：The main principle of quick sorting is left and right exchange sorting, first, we
@@ -26,29 +26,17 @@ middle value to the left is all smaller than the middle value, the middle value 
 larger than the middle value. At this point, the left and right sides can be seen as two new
 arrays, continue to use the above principle until the end of the loop.
 
-Diagram:
-
-![QuickSort Diagram](OpenMP/screenshot/QuickSort_Diagram.png)
-
 [2]EnumerationSort
 
 Principle：Enumeration sorting is to compare the size of all elements with all other
 elements and find out how many elements are smaller than themselves, so as to
 obtain the position (rank) of the elements. The position of each element is unique.
 
-Diagram:
-
-![EnumerationSort Diagram](OpenMP/screenshot/EnumerationSort_Diagram.png)
-
 [3]MergeSort
 
 Principle: The array is split into individual elements, so that relative to itself is
 ordered, two adjacent elements compare size, so that the loop, and finally merged
 into a whole orderly sequence.
-
-Diagram:
-
-![MergeSort Diagram](OpenMP/screenshot/MergeSort_Diagram.png)
 
 ## Requirement
 1. Random generation of an array with double-precision
@@ -71,7 +59,17 @@ figure to display double random numbers.
 liuyu@Ames-MacBookPro 5507 % ./a.out
 3.14555 1.57566 2.67936 4.57623 3.99636 2.41742 8.83001 727.742 3.27268 7.91091
 ```
+2. A serial solution for each sorting algorithm to sort the
+generated array;
 
+[1] QuickSort
+```
+Liuyu @ Ames-macbookpro 5507 g++-11 -openmp Quicksortopenmp2.cpp
+Liuyu @ Ames-macbookpro 5507 % ./a.out
+1.541953.08108 3.4174.60761 5.464177.97852 8.76398.84981 9.66999 9.84632
+```
+[2] EnumerationSort
+![EnumerationSort](OpenMP/screenshot/EnumerationSort.png)
 
 ### Experimental Environment
 
