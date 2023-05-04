@@ -3,17 +3,21 @@
 
 This project aims to optimize classical sorting algorithms using OpenMP and MPI. The project contains two folders, one for OpenMP and the other for MPI.
 
-## OpenMP
 
-### Aims
+## Aims
 
-This project aims to design and develop serial and parallel solutions for three sorting algorithms: fast sort, enumeration sort, and merge sort using OpenMP.
-
-### Tasks
+This project aims to design and develop serial and parallel solutions for three sorting algorithms: fast sort, enumeration sort, and merge sort using OpenMP and MPI to accelerate codes.
+## Tasks
 
 1. Random generation of an array with double-precision floating-point numbers.
 2. A serial solution for each sorting algorithm that sorts the generated array.
-3. A parallel solution for each sorting algorithm that sorts the array on the CPU using OpenMP.
+3. A parallel solution for each sorting algorithm that sorts the array on the CPU using OpenMP or MPI.
+
+## OpenMP
+
+
+
+
 
 
 ### Introduction
