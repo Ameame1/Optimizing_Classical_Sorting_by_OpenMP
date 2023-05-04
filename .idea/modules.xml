@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Optimizing_Classical_Sorting_by_OpenMP.iml" filepath="$PROJECT_DIR$/.idea/Optimizing_Classical_Sorting_by_OpenMP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Optimizing_Classical_Sorting_by_OpenMP/MPI.iml" filepath="$PROJECT_DIR$/.idea/Optimizing_Classical_Sorting_by_OpenMP/MPI.iml" />
     </modules>
   </component>
 </project>
